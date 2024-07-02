@@ -158,7 +158,7 @@ if(isset($_REQUEST['btnupdate']))
                     </div>
                     <div class="col mb-3">
                         <label class="form-label" for="basic-default-fullname">Contact</label>
-                        <input type="text" class="form-control" name="contact" id="contact"
+                        <input type="text" class="form-control" name="contact" id="contact" maxlength="10" pattern="[6789][0-9]{9}"
                             value="<?php echo (isset($mode)) ? $data['contact'] : '' ?>"
                             <?php echo isset($mode) && $mode == 'view' ? 'readonly' : '' ?> required />
                     </div>

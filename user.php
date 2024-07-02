@@ -197,8 +197,9 @@ eraseCookie("excelmsg")
                         <td>
                             <a href="javascript:editdata('<?php echo $res["id"]?>');"><i
                                     class="bx bx-edit-alt me-1"></i> </a>
-                            <a href="javascript:deletedata('<?php echo $res["id"]?>');"><i class="bx bx-trash me-1"></i>
-                            </a>
+                                    <a
+                                href="javascript:deletedata('<?php echo $res["id"] ?>','<?php echo base64_encode($res["name"]) ?>');"><i
+                                    class="bx bx-trash me-1"></i> </a>
                             <a href="javascript:viewdata('<?php echo $res["id"]?>');">View</a>
                         </td>
                     </tr>
