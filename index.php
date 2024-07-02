@@ -154,7 +154,7 @@ if(isset($_REQUEST["login"])){
               <div class="app-brand justify-content-center">
                 <a href="index.html" class="app-brand-link gap-2">
                   <span class="app-brand-logo demo">
-                   <img src="assets/img/kapot_100.png">
+                   <img src="assets/img/logo.png">
                   </span>
                  <!--  <span class="app-brand-text demo text-body fw-bolder">MyKapot</span> -->
                 </a>
